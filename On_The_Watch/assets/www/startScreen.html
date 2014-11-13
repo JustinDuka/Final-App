@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.4/jquery.mobile.structure-1.4.4.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                if (navigator.userAgent.match(/iP/i))
+                {
+                    $(window).bind('orientationchange', function(event)
+                    {
+                        $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+                    }).trigger('orientationchange');
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.4/jquery.mobile-1.4.4.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/databaseUtils.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen" id="startScreen"
+        class="type-interior" data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="startScreen_mobileheader" class="startScreen_mobileheader">
+                <h1 dsid="mobileheader">
+                    On The Watch
+                </h1>
+                <!-- subbutt --><!--
+                --><a data-role="button" name="subbutt" dsid="subbutt" class="startScreen_subbutt ui-btn-left"
+                id="startScreen_subbutt" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="b"
+                tabindex="2">
+                Subscribe
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="startScreen_mobilecontainer" name="mobilecontainer"
+            class="startScreen_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="f">
+                <link href="startScreen.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="startScreen.js">
+                </script>
+                <!-- annc1 -->
+                <div name="annc1" id="startScreen_annc1" dsid="annc1" data-role="appery_label" class="startScreen_annc1">
+                    November 6 ,2013
+                </div>
+                <!-- desc1 -->
+                <div name="desc1" id="startScreen_desc1" dsid="desc1" data-role="appery_label" class="startScreen_desc1">
+                    Typhoon Haiyan(Yolanda) entered the PAR
+                </div>
+                <!-- spacer_68 -->
+                <div id="startScreen_spacer_68" data-role="appery_spacer" dsid="spacer_68" class='mobilespacer startScreen_spacer_68'>
+                </div>
+                <!-- annc2 -->
+                <div name="annc2" id="startScreen_annc2" dsid="annc2" data-role="appery_label" class="startScreen_annc2">
+                    November 7 ,2013
+                </div>
+                <!-- desc2 -->
+                <div name="desc2" id="startScreen_desc2" dsid="desc2" data-role="appery_label" class="startScreen_desc2">
+                    PSWS raised to 4
+                </div>
+                <!-- spacer_70 -->
+                <div id="startScreen_spacer_70" data-role="appery_spacer" dsid="spacer_70" class='mobilespacer startScreen_spacer_70'>
+                </div>
+                <!-- annc3 -->
+                <div name="annc3" id="startScreen_annc3" dsid="annc3" data-role="appery_label" class="startScreen_annc3">
+                    November 8 ,2013
+                </div>
+                <!-- desc3 -->
+                <div name="desc3" id="startScreen_desc3" dsid="desc3" data-role="appery_label" class="startScreen_desc3">
+                    Coverage of PSWS widened
+                </div>
+                <!-- spacer_73 -->
+                <div id="startScreen_spacer_73" data-role="appery_spacer" dsid="spacer_73" class='mobilespacer startScreen_spacer_73'>
+                </div>
+                <!-- annc4 -->
+                <div name="annc4" id="startScreen_annc4" dsid="annc4" data-role="appery_label" class="startScreen_annc4">
+                    November 9 ,2013
+                </div>
+                <!-- desc4 -->
+                <div name="desc4" id="startScreen_desc4" dsid="desc4" data-role="appery_label" class="startScreen_desc4">
+                    Typhoon Yolanda left the PAR
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="startScreen_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="startScreen_mobilefooter" data-theme="f">
+            </div>
+            <!-- subpanel -->
+            <div data-role="panel" tabindex="-1" data-position="left" data-display="push" id="startScreen_subpanel"
+            class="startScreen_subpanel" name="subpanel" dsid="subpanel" data-theme="f">
+                <!-- textmail -->
+                <div name="textmail" id="startScreen_textmail" dsid="textmail" data-role="appery_label"
+                class="startScreen_textmail">
+                    Subscribe through mail
+                </div>
+                <!-- inmail -->
+                <div data-role="fieldcontain" class="startScreen_inmail ">
+                    <input type="email" name="inmail" dsid="inmail" value="" placeholder="e-mail address"
+                    id="startScreen_inmail" tabindex="18" multiple data-theme="f" class="startScreen_inmail"
+                    />
+                </div>
+                <!-- spacer_51 -->
+                <div id="startScreen_spacer_51" data-role="appery_spacer" dsid="spacer_51" class='mobilespacer startScreen_spacer_51'>
+                </div>
+                <!-- texttext -->
+                <div name="texttext" id="startScreen_texttext" dsid="texttext" data-role="appery_label"
+                class="startScreen_texttext">
+                    Subscribe through text
+                </div>
+                <!-- innum -->
+                <div data-role="fieldcontain" class="startScreen_innum ">
+                    <input type="tel" name="innum" dsid="innum" value="" placeholder="phone number"
+                    id="startScreen_innum" tabindex="22" multiple data-theme="f" class="startScreen_innum"
+                    />
+                </div>
+                <!-- spacer_53 -->
+                <div id="startScreen_spacer_53" data-role="appery_spacer" dsid="spacer_53" class='mobilespacer startScreen_spacer_53'>
+                </div>
+                <!-- subbuttmail --><!--
+                --><a data-role="button" name="subbuttmail" dsid="subbuttmail" class="startScreen_subbuttmail"
+                id="startScreen_subbuttmail" data-corners="true" data-icon="mail" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline="true" data-mini="false" data-theme="f"
+                tabindex="20">
+                Subscribe
+                </a><!--
+                --><!-- mobilebutton_54 --><!--
+                --><a data-role="button" name="mobilebutton_54" dsid="mobilebutton_54" class="startScreen_mobilebutton_54"
+                id="startScreen_mobilebutton_54" data-corners="true" data-icon="delete" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline="true" data-mini="false" data-theme="f"
+                tabindex="23">
+                Cancel
+                </a>
+            </div>
+            <!-- subpop -->
+            <div data-role="popup" name="subpop" dsid="subpop" id="startScreen_subpop" class="startScreen_subpop"
+            data-corners="true" data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true"
+            data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- ursubbedlabel -->
+                    <div name="ursubbedlabel" id="startScreen_ursubbedlabel" dsid="ursubbedlabel" data-role="appery_label"
+                    class="startScreen_ursubbedlabel">
+                        You are subscribed!!
+                    </div>
+                </div>
+            </div>
+            <!-- panup1 -->
+            <div data-role="panel" tabindex="-1" data-position="right" data-display="push" id="startScreen_panup1"
+            class="startScreen_panup1" name="panup1" dsid="panup1" data-theme="f">
+                <!-- up1 -->
+                <div name="up1" id="startScreen_up1" dsid="up1" data-role="appery_label" class="startScreen_up1">
+                    Updates
+                </div>
+                <!-- updesc1 -->
+                <div name="updesc1" id="startScreen_updesc1" dsid="updesc1" data-role="appery_label"
+                class="startScreen_updesc1">
+                    -PAGASA raised Public Storm Warning Signal No.1 for much of the Visayas and Mindanao.
+                </div>
+            </div>
+            <!-- panup2 -->
+            <div data-role="panel" tabindex="-1" data-position="right" data-display="push" id="startScreen_panup2"
+            class="startScreen_panup2" name="panup2" dsid="panup2" data-theme="f">
+                <!-- up2 -->
+                <div name="up2" id="startScreen_up2" dsid="up2" data-role="appery_label" class="startScreen_up2">
+                    Updates
+                </div>
+                <!-- updesc2 -->
+                <div name="updesc2" id="startScreen_updesc2" dsid="updesc2" data-role="appery_label"
+                class="startScreen_updesc2">
+                    -PAGASA raised Public Storm Warning Signal No. 4 for Biliran Island, Eastern Samar,
+                    Leyte, Northern Cebu, Metro Cebu, Samar and Southern Leyte.
+                </div>
+            </div>
+            <!-- panup3 -->
+            <div data-role="panel" tabindex="-1" data-position="right" data-display="push" id="startScreen_panup3"
+            class="startScreen_panup3" name="panup3" dsid="panup3" data-theme="f">
+                <!-- up3 -->
+                <div name="up3" id="startScreen_up3" dsid="up3" data-role="appery_label" class="startScreen_up3">
+                    Updates
+                </div>
+                <!-- updesc3 -->
+                <div name="updesc3" id="startScreen_updesc3" dsid="updesc3" data-role="appery_label"
+                class="startScreen_updesc3">
+                    - The coverage of Public Storm Warning Signal No. 4 expanded to Southern Luzon.
+                </div>
+                <!-- spacer_85 -->
+                <div id="startScreen_spacer_85" data-role="appery_spacer" dsid="spacer_85" class='mobilespacer startScreen_spacer_85'>
+                </div>
+                <!-- updesc32 -->
+                <div name="updesc32" id="startScreen_updesc32" dsid="updesc32" data-role="appery_label"
+                class="startScreen_updesc32">
+                    - PAGASA issued warnings at different levels to about 60 provinces including Metro
+                    Manila.
+                </div>
+            </div>
+            <!-- panup4 -->
+            <div data-role="panel" tabindex="-1" data-position="right" data-display="push" id="startScreen_panup4"
+            class="startScreen_panup4" name="panup4" dsid="panup4" data-theme="f">
+                <!-- up4 -->
+                <div name="up4" id="startScreen_up4" dsid="up4" data-role="appery_label" class="startScreen_up4">
+                    Updates
+                </div>
+                <!-- updesc4 -->
+                <div name="updesc4" id="startScreen_updesc4" dsid="updesc4" data-role="appery_label"
+                class="startScreen_updesc4">
+                    - The International Charter on Space and Major Disasters was activated which provided
+                    widespread charitable satellite coverage to relief organizations.
+                </div>
+                <!-- spacer_90 -->
+                <div id="startScreen_spacer_90" data-role="appery_spacer" dsid="spacer_90" class='mobilespacer startScreen_spacer_90'>
+                </div>
+                <!-- stat1 -->
+                <div name="stat1" id="startScreen_stat1" dsid="stat1" data-role="appery_label" class="startScreen_stat1">
+                    Typhoon Statistics
+                </div>
+                <!-- col1 -->
+                <div name="col1" id="startScreen_col1" dsid="col1" data-role="appery_label" class="startScreen_col1">
+                    Highest Winds
+                </div>
+                <!-- coldesc1 -->
+                <div name="coldesc1" id="startScreen_coldesc1" dsid="coldesc1" data-role="appery_label"
+                class="startScreen_coldesc1">
+                    - 10-minute sustained: 230 km/h(145 mph)
+                </div>
+                <!-- coldesc22 -->
+                <div name="coldesc22" id="startScreen_coldesc22" dsid="coldesc22" data-role="appery_label"
+                class="startScreen_coldesc22">
+                    - 1-minute sustained: 315 km/h(195 mph)
+                </div>
+                <!-- spacer_100 -->
+                <div id="startScreen_spacer_100" data-role="appery_spacer" dsid="spacer_100" class='mobilespacer startScreen_spacer_100'>
+                </div>
+                <!-- col2 -->
+                <div name="col2" id="startScreen_col2" dsid="col2" data-role="appery_label" class="startScreen_col2">
+                    Lowest Pressure
+                </div>
+                <!-- coldesc2 -->
+                <div name="coldesc2" id="startScreen_coldesc2" dsid="coldesc2" data-role="appery_label"
+                class="startScreen_coldesc2">
+                    895 mbar(hPa); 26.43 in Hg
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

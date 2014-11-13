@@ -1,0 +1,314 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.4/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* subbutt */
+#startScreen_subbutt {
+
+}
+.ui-btn.startScreen_subbutt {
+
+}
+/* mobilecontainer */
+.ui-content.startScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* annc1 */
+.startScreen_annc1 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* desc1 */
+.startScreen_desc1 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_68 */
+.startScreen_spacer_68 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* annc2 */
+.startScreen_annc2 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* desc2 */
+.startScreen_desc2 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_70 */
+.startScreen_spacer_70 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* annc3 */
+.startScreen_annc3 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* desc3 */
+.startScreen_desc3 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_73 */
+.startScreen_spacer_73 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* annc4 */
+.startScreen_annc4 {
+	text-decoration: none; font-weight: bold; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* desc4 */
+.startScreen_desc4 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter */
+.startScreen_mobilefooter {
+	min-height:38px;
+}
+/* subpanel */
+.startScreen_subpanel .ui-panel-inner {
+	padding: 15px 15px 15px 15px;
+}
+.startScreen_subpanel:focus {
+	outline: 0;
+}
+/* textmail */
+.startScreen_textmail {
+	text-decoration: underline; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* inmail */
+.startScreen_inmail {
+	margin: 4px 0px 4px 0px;
+}
+/* spacer_51 */
+.startScreen_spacer_51 {
+	width: 260px; height: 88px;
+	margin: 4px 0px 4px 0px;
+}
+/* texttext */
+.startScreen_texttext {
+	text-decoration: underline; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* innum */
+.startScreen_innum {
+	margin: 4px 0px 4px 0px;
+}
+/* spacer_53 */
+.startScreen_spacer_53 {
+	width: 260px; height: 96px;
+	margin: 4px 0px 4px 0px;
+}
+/* subbuttmail */
+#startScreen_subbuttmail {
+
+}
+.ui-btn.startScreen_subbuttmail {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilebutton_54 */
+#startScreen_mobilebutton_54 {
+
+}
+.ui-btn.startScreen_mobilebutton_54 {
+	margin: 4px 5px 4px 5px;
+}
+/* subpop */
+.startScreen_subpop {
+
+}
+div.startScreen_subpop {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.startScreen_subpop .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* ursubbedlabel */
+.startScreen_ursubbedlabel {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* panup1 */
+.startScreen_panup1 .ui-panel-inner {
+	padding: 15px 15px 15px 15px;
+}
+.startScreen_panup1:focus {
+	outline: 0;
+}
+/* up1 */
+.startScreen_up1 {
+	text-decoration: underline; font-weight: bold; color: #085cff; text-align: left; font-family: Helvetica; font-size: 24px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* updesc1 */
+.startScreen_updesc1 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* panup2 */
+.startScreen_panup2 .ui-panel-inner {
+	padding: 15px 15px 15px 15px;
+}
+.startScreen_panup2:focus {
+	outline: 0;
+}
+/* up2 */
+.startScreen_up2 {
+	text-decoration: underline; font-weight: bold; color: #085cff; text-align: left; font-family: Helvetica; font-size: 24px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* updesc2 */
+.startScreen_updesc2 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* panup3 */
+.startScreen_panup3 .ui-panel-inner {
+	padding: 15px 15px 15px 15px;
+}
+.startScreen_panup3:focus {
+	outline: 0;
+}
+/* up3 */
+.startScreen_up3 {
+	text-decoration: underline; font-weight: bold; color: #085cff; text-align: left; font-family: Helvetica; font-size: 24px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* updesc3 */
+.startScreen_updesc3 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_85 */
+.startScreen_spacer_85 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* updesc32 */
+.startScreen_updesc32 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* panup4 */
+.startScreen_panup4 .ui-panel-inner {
+	padding: 15px 15px 15px 15px;
+}
+.startScreen_panup4:focus {
+	outline: 0;
+}
+/* up4 */
+.startScreen_up4 {
+	text-decoration: underline; font-weight: bold; color: #085cff; text-align: left; font-family: Helvetica; font-size: 24px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* updesc4 */
+.startScreen_updesc4 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_90 */
+.startScreen_spacer_90 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* stat1 */
+.startScreen_stat1 {
+	text-decoration: underline; font-weight: bold; color: #085cff; text-align: left; font-family: Helvetica; font-size: 24px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* col1 */
+.startScreen_col1 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* coldesc1 */
+.startScreen_coldesc1 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* coldesc22 */
+.startScreen_coldesc22 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_100 */
+.startScreen_spacer_100 {
+	width: 260px; height: 18px;
+	margin: 4px 0px 4px 0px;
+}
+/* col2 */
+.startScreen_col2 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* coldesc2 */
+.startScreen_coldesc2 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
